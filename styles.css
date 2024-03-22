@@ -1,0 +1,186 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ebf3f7;
+}
+
+header {
+  position: relative;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  height: 15vh;
+}
+
+.banner-bg {
+  width: 100%;
+  height: auto;
+}
+
+.banner-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 70%;
+}
+
+.title {
+  text-align: center;
+  color: #fe5716;
+  margin-top: 20px;
+}
+
+#imgCurseur {
+  height: auto;
+  width: 10vw;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#pageAcc {
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.intro-section {
+  margin-bottom: 30px;
+}
+
+.intro-title {
+  color: #31386d;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.intro-description {
+  color: #333;
+  font-size: 14px;
+}
+
+.section-title {
+  color: #31386d;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.actions-section,
+.features-section {
+  margin-bottom: 40px;
+}
+
+.form-container {
+  padding: 20px;
+  background: linear-gradient(to bottom, #ebf3f7, #001a70);
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#accueil {
+  background: none;
+  box-shadow: none;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  width: 20px; /* Ajustez la taille de l'icône selon vos besoins */
+  height: auto; /* Pour maintenir le ratio hauteur-largeur */
+  margin-right: 5px; /* Ajoutez un espacement à droite de l'icône */
+  text-align: left;
+}
+
+#payButton {
+  display: flex;
+  justify-content: space-between;
+}
+
+#payButton.btn {
+  flex: 1;
+  margin-right: 10px; /* Ajoutez une marge entre les boutons */
+}
+
+#payButton.btn:last-child {
+  margin-right: 0; /* Supprimez la marge à droite du dernier bouton */
+}
+
+#meansOfPay {
+  margin-left: 10px;
+}
+
+/* Animation pour les boutons au survol */
+.btn {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #1054c2;
+  border: 1px solid #1054c2;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Animation au survol */
+.btn:hover {
+  background-color: #31386d;
+  border-color: #31386d;
+  transform: scale(1.05); /* Redimensionner légèrement le bouton */
+}
+
+/* Animation au clic/tap */
+.btn:active {
+  transform: scale(
+    0.95
+  ); /* Réduire légèrement le bouton lorsqu'il est cliqué/touché */
+  border-color: #fe5716; /* Ajout de la bordure de couleur */
+}
+.cheminDeFer {
+  font-weight: bold;
+  color: #31386d;
+}
+
+.cheminDeFer a {
+  text-decoration: none;
+  color: #fe5716; /* Ajout de la bordure de couleur */
+  transition: color 0.3s ease;
+}
+
+.cheminDeFer a:hover {
+  color: #fe5716; /* Changement de couleur au survol */
+}
+
+.cheminDeFer::after {
+  content: ">";
+  margin: 0 5px;
+  color: #6f77b2;
+}
+
+.cheminDeFer a:last-child::after {
+  content: "";
+} /* Supprimer le chevron après le dernier lien */
+
+@media screen and (max-width: 600px) {
+  .banner-logo {
+    max-width: 60%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 24px;
+  }
+}
