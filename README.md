@@ -25,11 +25,10 @@ git clone https://github.com/votrecompte/projet-edf-guadeloupe.git
 2. Ouvrez le fichier index.html dans votre navigateur web préféré.
 
 ## Fonctionnalités principales
-
-    Interface simple et conviviale
-    Regroupement des démarches en ligne les plus courantes
-    Liens directs vers les plateformes et services d'EDF Guadeloupe
-    Design responsive pour une expérience utilisateur optimale sur différents appareils
+- Interface simple et conviviale
+- Regroupement des démarches en ligne les plus courantes
+- Liens directs vers les plateformes et services d'EDF Guadeloupe
+- Design responsive pour une expérience utilisateur optimale sur différents appareils
 
 ## Licence
 
