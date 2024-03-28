@@ -134,6 +134,11 @@ header {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+.depannage {
+  background-color: #4f9e30;
+  border: 1px solid #4f9e30;
+}
+
 /* Animation au survol */
 .btn:hover {
   background-color: #31386d;
